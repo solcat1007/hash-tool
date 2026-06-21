@@ -1,25 +1,38 @@
-# hash-tool
+# 哈希计算器
 
-Hash calculator - MD5/SHA-1/SHA-256/SHA-512 for text & files
+> MD5/SHA1/SHA256/SHA512 在线哈希计算，支持文件哈希，大文件分片处理
 
-## Features
+## 功能概览
 
-Pure frontend tool - no server required, open in browser and use.
+- **MD5 / SHA-1 / SHA-256 / SHA-384 / SHA-512 全系列支持**
+- **文本哈希实时计算，输入即出结果**
+- **文件哈希：拖拽或选择文件，大文件分片计算不卡 UI**
+- **HMAC 带密钥哈希，常用密码学场景覆盖**
+- **输出哈希值一键复制，支持大小写切换**
 
-## Usage
+## 操作说明
 
-1. Download index.html
-2. Open in browser
-3. Start using!
+1. 打开 index.html（浏览器直接运行，无需服务器）
+2. 按界面引导输入/操作
+3. 结果实时预览，支持一键复制导出
 
-Or visit GitHub Pages (if configured).
+## 技术栈
 
-## Tech Stack
+- **HTML5**：语义化结构
+- **CSS3**：白色极简主题，Flex/Grid 布局
+- **Vanilla JavaScript**：纯原生代码，零依赖
+- **ES6+**：sync/await、箭头函数、模板字符串
+- **localStorage**：偏好设置持久化
 
-- Pure HTML/CSS/JavaScript
-- Zero dependencies, no build tools
-- White minimalist theme design
+## 兼容性
 
-## License
+| 浏览器 | 支持情况 |
+|---|---|
+| Chrome 90+ | 完全支持 |
+| Firefox 88+ | 完全支持 |
+| Safari 14+ | 完全支持 |
+| Edge 90+ | 完全支持 |
 
-MIT
+## 许可证
+
+MIT (c) solcat1007
